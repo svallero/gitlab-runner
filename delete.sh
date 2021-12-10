@@ -1,3 +1,4 @@
 #!/bin/sh
 
-helm delete --namespace gwcelery gitlab-runner
+NAMESPACE="wavefier-stable"
+helm delete --namespace $NAMESPACE kube-deploy

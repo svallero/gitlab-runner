@@ -1,0 +1,8 @@
+gitlabUrl: changeme
+runnerRegistrationToken: dummy 
+rbac:
+  create: false
+  serviceAccountName: runner
+runners:                                                           
+  privileged: true                                                 
+  tags: changeme
